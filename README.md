@@ -29,6 +29,7 @@ USAGE
 <!-- commands -->
 * [`giiz hello [FILE]`](#giiz-hello-file)
 * [`giiz help [COMMAND]`](#giiz-help-command)
+* [`giiz playlist [FILE]`](#giiz-playlist-file)
 
 ## `giiz hello [FILE]`
 
@@ -66,4 +67,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src\commands\help.ts)_
+
+## `giiz playlist [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ giiz playlist [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src\commands\playlist.ts](https://github.com/realStandal/gplay-soundizz-parser/blob/v1.0.0/src\commands\playlist.ts)_
 <!-- commandsstop -->
