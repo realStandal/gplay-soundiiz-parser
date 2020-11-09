@@ -27,27 +27,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`giiz hello [FILE]`](#giiz-hello-file)
 * [`giiz help [COMMAND]`](#giiz-help-command)
 * [`giiz playlist [FILE]`](#giiz-playlist-file)
-
-## `giiz hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ giiz hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ giiz hello
-  hello world from ./src/hello.ts!
-```
 
 _See code: [src\commands\hello.ts](https://github.com/realStandal/gplay-soundizz-parser/blob/v1.0.0/src\commands\hello.ts)_
 
