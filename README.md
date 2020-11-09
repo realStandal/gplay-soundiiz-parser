@@ -1,11 +1,10 @@
-gplay-soundizz-parser
+Giiz
 =====================
 
 Google Play Playlist to Soundizz parser written as a CLI using oclif.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/gplay-soundizz-parser.svg)](https://npmjs.org/package/gplay-soundizz-parser)
-[![Downloads/week](https://img.shields.io/npm/dw/gplay-soundizz-parser.svg)](https://npmjs.org/package/gplay-soundizz-parser)
 [![License](https://img.shields.io/npm/l/gplay-soundizz-parser.svg)](https://github.com/realStandal/gplay-soundizz-parser/blob/master/package.json)
 
 <!-- toc -->
