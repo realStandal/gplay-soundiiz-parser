@@ -5,17 +5,27 @@ Giiz
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 
+## About
+
 I wrote this to swap my Google Play Music playlist to YouTube Music using [Sounddiiz](https://soundiiz.com/); though, once converted you can transfer it to any provider Soundiiz covers. Google's transfer feature didn't apply seeing as I was also wanting to transfer accounts.
 
 Google dumps the tracks in your playlists as indavidual CSV files. This CLI will parse those files and export them to a single CSV file compatible with Soundiiz.
 
 Once converted, use Soundiiz's **Import Playlist** feature and select file.
 
+## Requirements
+
+This package was written using Node `v14.15.0`. In addition, the following from the [ocliff Documentation](https://oclif.io/docs/introduction#requirements) will provide useful:
+
+> Only Active LTS Node versions are supported. ...
+
+---
+
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
-# Usage
+## Usage
 <!-- usage -->
 ```sh-session
 $ npm install -g gplay-soundiiz-parser
@@ -29,12 +39,12 @@ USAGE
 ...
 ```
 <!-- usagestop -->
-# Commands
+## Commands
 <!-- commands -->
 * [`giiz help [COMMAND]`](#giiz-help-command)
 * [`giiz playlist PLAYLIST OUTPUT [FILE]`](#giiz-playlist-playlist-output-file)
 
-## `giiz help [COMMAND]`
+### `giiz help [COMMAND]`
 
 display help for giiz
 
@@ -51,7 +61,7 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src\commands\help.ts)_
 
-## `giiz playlist PLAYLIST OUTPUT [FILE]`
+### `giiz playlist PLAYLIST OUTPUT [FILE]`
 
 Convert a Google Play Music Playlist CSV directory to a single Soundizz compatible CSV file.
 
