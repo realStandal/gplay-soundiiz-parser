@@ -1,7 +1,7 @@
 {
   "name": "gplay-soundiiz-parser",
   "description": "Google Play Playlist to Soundiiz parser written as a CLI using oclif.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ryan Lockard @realStandal",
   "bin": {
     "giiz": "./bin/run"
