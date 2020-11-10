@@ -28,9 +28,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`giiz help [COMMAND]`](#giiz-help-command)
-* [`giiz playlist [FILE]`](#giiz-playlist-file)
-
-_See code: [src\commands\hello.ts](https://github.com/realStandal/gplay-soundizz-parser/blob/v1.0.0/src\commands\hello.ts)_
+* [`giiz playlist PLAYLIST OUTPUT [FILE]`](#giiz-playlist-playlist-output-file)
 
 ## `giiz help [COMMAND]`
 
@@ -49,18 +47,18 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src\commands\help.ts)_
 
-## `giiz playlist [FILE]`
+## `giiz playlist PLAYLIST OUTPUT [FILE]`
 
-describe the command here
+Convert a Google Play Music Playlist CSV directory to a single Soundizz compatible CSV file.
 
 ```
 USAGE
-  $ giiz playlist [FILE]
+  $ giiz playlist PLAYLIST OUTPUT [FILE]
 
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+ARGUMENTS
+  PLAYLIST  Directory containing a subdirectory 'Tracks' containing CSV files exported from Google Play Music.
+  OUTPUT    Directory to output the single, Soundizz compatible CSV file to.
+  FILE      [default: output] Name of the file to generate output too.
 ```
 
 _See code: [src\commands\playlist.ts](https://github.com/realStandal/gplay-soundizz-parser/blob/v1.0.0/src\commands\playlist.ts)_
