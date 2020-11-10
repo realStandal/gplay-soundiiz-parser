@@ -1,11 +1,10 @@
-gplay-soundizz-parser
+Giiz
 =====================
 
 Google Play Playlist to Soundizz parser written as a CLI using oclif.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/gplay-soundizz-parser.svg)](https://npmjs.org/package/gplay-soundizz-parser)
-[![Downloads/week](https://img.shields.io/npm/dw/gplay-soundizz-parser.svg)](https://npmjs.org/package/gplay-soundizz-parser)
 [![License](https://img.shields.io/npm/l/gplay-soundizz-parser.svg)](https://github.com/realStandal/gplay-soundizz-parser/blob/master/package.json)
 
 <!-- toc -->
@@ -28,28 +27,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`giiz hello [FILE]`](#giiz-hello-file)
 * [`giiz help [COMMAND]`](#giiz-help-command)
-
-## `giiz hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ giiz hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ giiz hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src\commands\hello.ts](https://github.com/realStandal/gplay-soundizz-parser/blob/v1.0.0/src\commands\hello.ts)_
+* [`giiz playlist PLAYLIST OUTPUT [FILE]`](#giiz-playlist-playlist-output-file)
 
 ## `giiz help [COMMAND]`
 
@@ -67,4 +46,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src\commands\help.ts)_
+
+## `giiz playlist PLAYLIST OUTPUT [FILE]`
+
+Convert a Google Play Music Playlist CSV directory to a single Soundizz compatible CSV file.
+
+```
+USAGE
+  $ giiz playlist PLAYLIST OUTPUT [FILE]
+
+ARGUMENTS
+  PLAYLIST  Directory containing a subdirectory 'Tracks' containing CSV files exported from Google Play Music.
+  OUTPUT    Directory to output the single, Soundizz compatible CSV file to.
+  FILE      [default: output] Name of the file to generate output too.
+```
+
+_See code: [src\commands\playlist.ts](https://github.com/realStandal/gplay-soundizz-parser/blob/v1.0.0/src\commands\playlist.ts)_
 <!-- commandsstop -->
