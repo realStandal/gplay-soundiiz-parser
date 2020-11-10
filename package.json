@@ -1,12 +1,12 @@
 {
-  "name": "gplay-soundizz-parser",
-  "description": "Google Play Playlist to Soundizz parser written as a CLI using oclif.",
+  "name": "gplay-soundiiz-parser",
+  "description": "Google Play Playlist to Soundiiz parser written as a CLI using oclif.",
   "version": "1.0.0",
   "author": "Ryan Lockard @realStandal",
   "bin": {
     "giiz": "./bin/run"
   },
-  "bugs": "https://github.com/realStandal/gplay-soundizz-parser/issues",
+  "bugs": "https://github.com/realStandal/gplay-soundiiz-parser/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -40,9 +40,11 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/realStandal/gplay-soundizz-parser",
+  "homepage": "https://github.com/realStandal/gplay-soundiiz-parser",
   "keywords": [
-    "oclif"
+    "oclif",
+    "google play",
+    "soundiiz"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -53,7 +55,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "realStandal/gplay-soundizz-parser",
+  "repository": "realStandal/gplay-soundiiz-parser",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
