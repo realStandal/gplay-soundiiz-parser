@@ -1,15 +1,15 @@
 Giiz
 =====================
 
-Google Play (Playlist) to Soundiiz parser written as a CLI using oclif.
-
 > oclif arguments really don't like spaces in a directory name, so sorry.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/gplay-soundizz-parser.svg)](https://npmjs.org/package/gplay-soundizz-parser)
-[![License](https://img.shields.io/npm/l/gplay-soundizz-parser.svg)](https://github.com/realStandal/gplay-soundizz-parser/blob/master/package.json)
 
-Currently only supports playlists dumped as part of a data export from Google.
+I wrote this to swap my Google Play Music playlist to YouTube Music using [Sounddiiz](https://soundiiz.com/). Google's transfer feature didn't apply seeing as I was also wanting to transfer accounts.
+
+Google dumps the tracks in your playlists as indavidual CSV files. This CLI will parse those files and export them to a single CSV file compatible with Soundiiz.
+
+Once converted, use Soundiiz's **Import Playlist** feature and select file.
 
 <!-- toc -->
 * [Usage](#usage)
